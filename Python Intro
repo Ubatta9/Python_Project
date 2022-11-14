@@ -1,0 +1,90 @@
+Operating System
+- Establish user interface
+-Manages the computer's resources
+- Provides resources to the application and helps to run the application on the computer
+
+Programming Language
+-language helps us to communicate with the computer
+-Programming language has :
+  - keywords: pre-defined wordds
+  - syntax:set of rules used to write any program
+  
+  Type of programming languages:
+   - Low level language (LLL)
+     - Binary
+     - Close to machine
+     - Difficult to read, code
+     - Faster
+     - Not portable- machine dependent
+     - Assembly language
+   - High level language (HLL)
+     - Human uderstandable language (close to how humans communicate)
+     - Easier to code
+     - May take more time to translate to machine understandable code
+     - Portable - can run on any platform
+     - Java, python
+     
+Python & it's features
+ - Open source
+ -Easier to code, learn, debug, understand
+ - Huge number of library support
+ - Community support
+ - general purpose language
+ - Portable
+ - Dynamically typed
+ - Memory management is automatic
+ - Flexible
+ - may not be fast compared to other languages as c++ or java
+ 
+Compiler and Interpreter
+  - Translators
+  -is used to translate the program into machine executable code
+  
+Compiler
+ - Translates the entire code at a time
+ - Faster
+ - Errors will be shown at the end of compilation
+ 
+Interpreter
+ - Translates the code line by line
+ - Slower
+ - Errors are shown line by line
+ 
+Source code:
+ - Code/ program that we write
+ 
+Machine code:
+ - Machine executable code
+ 
+Intermediate code:
+ - Object code: Java
+ - Byte code : Python
+ - Executable code: C
+ 
+Internal working of Python
+ - Source code (.py) -----> Byte code(.pyc) --- PVM (Interpreter) ----> Machine executable code
+ 
+ Byte code (.pyc) is saved in _pycache_ folder
+ 
+ PVM- python virtual machine
+ 
+Errors in Python:
+ 
+ - Compile time errors
+   - Syntax error
+   - Indentation error
+   - If there is a compile time error, Byte code will not be generated
+   - During compilation, only syntax and indentation are checked
+ 
+ 
+ - Run time erros
+   - Happens while the code is running after successfully compiled
+   - Exceptions
+   - This error stops the interpreter from executing the code and where the error has occured & displays the error message
+   - Any line before the error will be executed
+   - Spelling errors
+   - Divide a number by 0
+   - add a character with a number
+   - open a file which does not exist
+   
+

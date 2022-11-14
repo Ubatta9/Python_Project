@@ -1,0 +1,39 @@
+Version Control System (VCS):
+-a system that records changes made to a file or set of files overtime so that we can recal any specific version later.
+- keeps track of every modification to the code.
+- Restoring previous versions
+- Team members can work parallelly.
+
+Types of VCS:
+1. Centralised VCS (CVCS)
+-We have a single copy of the project on the central server
+-We can make the changes to this central copy on the central server
+-Single point of failure
+-Provides transparency
+-Remote changes are slow
+-SVN
+
+2. Distributed VCS (DVCS):
+- we don't have to rely on the central server
+-we can clone/copy the project to our local machines and can make changes in our local systems
+-Users will have the entire project in their local including the history of the project
+-Actions are fast except push and pull
+-No dependency on the central server
+-Takes space in the local system
+-Cloning takes time.
+-GIT
+
+VCS terms:
+
+-Repository (repo): A place where all te files and their history is stored, usually on a remote server
+- Clone: Creating(Copying) a Repo from another repo
+-Conflict: When different users make changes to the same file and the system is not able to resolve it.
+-Merge: Integrating 2 changes together
+- Initialize: Creating a new, empty repo
+-Branch:Set of files under version control may be branched at a certain point in time so that , from that point in time, 2 copies of those files are available for change independently.
+
+
+GIT
+-Open source DVCS
+
+
