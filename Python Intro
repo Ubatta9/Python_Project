@@ -121,6 +121,49 @@ Stack: Memory allocation on continuous memory addresses/ locations
 
 Heap: Memory allocation is random. Heap is a pile of memory.
 
+PMM has:
+ - Object specific allocator: Allocate memory to the objects (int, string, float, ...)
+ - Raw memory allocator: It interacts with the OS to ensure that there is enough memory for allocation.
 
+Memory management is done during runtime.
+Memory allocation is dynamic not static
+
+When memory is allocated for running a program, different types of areas are created:
+
+Code Area:
+ - Program is stored
+ - Fixed area allocated
+Variable Area:
+ - variables are stored in this
+ - Fixed
+Heap Area:
+ - Values of variables are stored
+ - Dynamic in size
+ - De-allocation is done by Garbage Collector and resides in Heap Area
+ - Garbage collector only works for values
+Free area:
+ - gives area to the Heap Area and Stack area
+ - When the values get allocated it gives area to Heap Area
+Stack Area:
+ -Ordering of things managed here
+ -Dynamic in size
  
+ 
+Methods are nothing but functions.Functions are small chunks of code.
+
+Garbage Collection: When the reference count of a memory becomes 0, the PMM sees that and the object(value) is removed from that memory and the memory is re-claimed to be used for something else. This is called Garbage Collection
+ - deallocating the memory
+ -depends on reference counting.
+ 
+Reference counting: It counts the number of times an object is referred
+
+Input and Output in Python:
+
+Output: print() function
+
+Id- id is a function. Returns the id of an object
+help(id)- gives description of id
+help() - gives description of the object you provide
+
+
  
