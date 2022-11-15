@@ -87,4 +87,40 @@ Errors in Python:
    - add a character with a number
    - open a file which does not exist
    
+Every function comes from builtins.py like print() and every other files comes from io.py
 
+Indentation:
+ - nothing but space that you give to write the syntax of the code
+ 
+ 
+A block is a combination of statements(code)
+
+Memory management in python:
+ - Allocate and deallocate the memory for effectively run the code
+ - Inefficient memory management may lead to slowness of the program
+ - In Python, memory management is taken care by python memory manage (PMM)-automatically done in python
+ 
+Memory allocation:
+
+1. Static memory allocation
+ - Memory is allocated at compile time
+ - Stack is used
+ - Memory can not be re used
+ Ex: int a=10
+
+2.Dynamic memory allocation
+ -Memory is allocated during runtime
+ - Heap is used
+ - Memory can be reused
+ Ex:a=10
+ 
+- In Python, dynamic memory allocation is done.So, memory management is done during runtime
+PMM allocates the memory to an object and when that object is not needed, PMM automatically reclaims the memory for something else
+
+Stack: Memory allocation on continuous memory addresses/ locations
+
+Heap: Memory allocation is random. Heap is a pile of memory.
+
+
+ 
+ 
